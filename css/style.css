@@ -10,7 +10,7 @@ body{
   box-sizing: border-box;
 }
 .html{
-  font-size: 67.5%;
+  font-size: 62.5%%;
 }
 /*Basic ##### part*/
 ul li{
@@ -259,6 +259,14 @@ margin-top: -13rem;
 #working-part .inner:hover img{
   transform: scale(1.5);
 }
+@media(max-width:355px){
+  #member-part h2{
+    font-size:3rem;
+  }
+  #working-part h2{
+    font-size:2rem;
+  }
+}
 /*Icon ############ part*/
 #icon{
   margin-top:3rem;
@@ -375,6 +383,17 @@ font-weight: 700;
 margin-bottom: 1rem;
 color: #444;
 }
+@media(max-width:355px){
+  #member-part h2{
+    font-size:2rem;
+  }
+  #member-part .first-card{
+    margin-top:4rem;
+  }
+  #member-part h4{
+    font-size:2rem;
+  }
+}
 /*Testemonia*/
 #testimonia{
   padding-bottom:4rem;
@@ -420,6 +439,11 @@ margin-bottom: 1rem;
 }
 #testimonia .card-body .owner{
   color:#267DF4;
+}
+@media(max-width:355px){
+  #testimonia h2{
+    font-size:2rem;
+  }
 }
 /*Background-video #### part*/
 #bg-video{
@@ -495,6 +519,11 @@ margin-bottom: 1rem;
   font-weight: 700;
   padding:.6rem 3.5rem;
 }
+@media(max-width:355px){
+  #trial h2{
+    font-size:2rem;
+  }
+}
 /*Location ##### part*/
 #location{
   margin-top:5rem;
@@ -552,6 +581,20 @@ margin-bottom: 1rem;
   color: #fff;
   background-color: #444;
 }
+@media(max-width:355px){
+  #location h2{
+    font-size:2rem;
+  }
+  #location .counter{
+    font-size: 2rem;
+  }
+  #location .counter-op{
+    font-size: 2rem;
+  }
+  #location p{
+    font-size: 1rem;
+  }
+}
 /*News ### Part ### Start*/
 #news{
   margin-top:5rem;
@@ -593,6 +636,11 @@ font-size: 3.5rem;
   transform: rotate(-720deg);
   transition: .4s;
 }
+@media(max-width:355px){
+  #news h2{
+    font-size:2rem;
+  }
+}
 /*Talk ##########part*/
 #talk{
   background:url('../img/footer-bg.jpg');
@@ -629,6 +677,11 @@ margin-bottom: 1rem;
 #talk .btn:hover{
   background-color: #444;
   color: #f5f5f5;
+}
+@media(max-width:355px){
+  #talk h2{
+    font-size:2rem;
+  }
 }
 /*Footer ########## Part*/
 #footer {
