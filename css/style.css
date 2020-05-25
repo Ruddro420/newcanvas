@@ -2,7 +2,7 @@
 body{
   color: #444;
   background: #fff;
-  font-family: 'Nunito', sans-serif;
+  font-family:
 }
 *{
   margin:0;
@@ -251,6 +251,9 @@ font-weight: 700;
 #member-part .fa{
   color: #007bff;
   margin-right:1rem;
+}
+#member-part .fa-check{
+  font-size: 1rem;
 }
 #member-part li{
   padding:1rem 0;
