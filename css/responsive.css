@@ -1,0 +1,136 @@
+@media(max-width:991px){
+  .sticky ul {
+    margin-right: 0rem;
+}
+.sticky ul li a{
+  margin-left:0rem;
+}
+  .main-nav ul li{
+    text-align:center;
+  }
+  .sticky .btn{
+    margin-right:5rem;
+  }
+  .sticky{
+    height:6rem;
+  }
+  .sticky .main-nav{
+    background: #fff;
+    color: #444;
+    margin-top:0rem;
+  }
+  .navbar{
+    padding:0rem 0rem;
+  }
+ .sticky ul li{
+   text-align:center;
+ }
+ .main-nav .bb:hover{
+   border-bottom: none;
+ }
+ .main-nav ul li .btn{
+   display:none;
+ }
+ .hero-header{
+   margin-top:1rem;
+ }
+ #working-part {
+   text-align:center;
+ }
+ #icon{
+   text-align:center;
+ }
+ #member-part{
+   text-align:center;
+ }
+ #member-part .third-card .card{
+   margin-top:3rem;
+ }
+#location {
+  text-align: center;
+}
+#footer {
+  text-align:center;
+}
+}
+ .hero-header{
+        margin-top: 2rem;
+    }
+@media(max-width:575px){
+  #working-part .third-blog{
+  margin-top: 10rem;
+  display: none;
+  }
+}
+@media(max-width:456px){
+  .hero-header h1{
+    font-size: 3rem;
+  }
+  body{
+    text-align:center;
+  }
+}
+@media(max-width:384px){
+  .sticky .btn{
+    margin-right:0rem;
+  }
+  .sticky .navbar-brand {
+    margin-left: 1rem;
+  }
+}
+@media(max-width:450px){
+    .hero-header{
+        margin-top: 2rem;
+    }
+  #member-part h2{
+    font-size:3rem;
+  }
+  #working-part h2{
+    font-size:2rem;
+  }
+}
+@media(max-width:450px){
+  #member-part h2{
+    font-size:2rem;
+  }
+  #member-part .first-card{
+    margin-top:4rem;
+  }
+  #member-part h4{
+    font-size:2rem;
+  }
+}
+@media(max-width:450px){
+  #testimonia h2{
+    font-size:2rem;
+  }
+}
+@media(max-width:450px){
+  #trial h2{
+    font-size:2rem;
+  }
+}
+@media(max-width:450px){
+  #location h2{
+    font-size:2rem;
+  }
+  #location .counter{
+    font-size: 2rem;
+  }
+  #location .counter-op{
+    font-size: 2rem;
+  }
+  #location p{
+    font-size: 1rem;
+  }
+}
+@media(max-width:450px){
+  #news h2{
+    font-size:2rem;
+  }
+}
+@media(max-width:450px){
+  #talk h2{
+    font-size:2rem;
+  }
+}
