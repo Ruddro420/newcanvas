@@ -199,7 +199,7 @@ margin-top: -13rem;
   margin-top:3rem;
   margin-bottom: 3rem;
 }
-#icon .fa{
+#icon .icon-hover{
 font-size: 2rem;
 }
 #icon h5{
@@ -209,7 +209,7 @@ font-size: 2rem;
 #icon .icon-col{
   padding:2rem;
 }
-#icon .icon-col .fa:hover{
+#icon .icon-col .icon-hover:hover{
   font-size: 2rem;
   transform:rotate(-720deg);
   padding:1.3rem 1rem;
