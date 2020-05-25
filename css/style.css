@@ -13,6 +13,19 @@ body{
 ul li{
   list-style: none;
 }
+:focus{
+  outline: 0;
+}
+#header-part::before,
+#icon::before ,
+#working-part::before, 
+#location::before{
+display: block;
+content: " ";
+margin-top: -100px;
+height: 100px;
+visibility: hidden;
+}
 /*Header ##### part*/
 .hero-header{
   margin-top: 3rem;
@@ -32,6 +45,7 @@ ul li{
   left:0;
   width: 100%;
   background:#fff;
+  box-shadow:1px 1px 10px 1px #cacaca;
   height:5rem;
   z-index: 99999;
   transition: .5s;
@@ -79,87 +93,10 @@ carousel:pointer;
     outline: 0;
     box-shadow: none;
 }
-@media(max-width:991px){
-  .sticky ul {
-    margin-right: 0rem;
-}
-.sticky ul li a{
-  margin-left:0rem;
-}
-  .main-nav ul li{
-    text-align:center;
-  }
-  .sticky .btn{
-    margin-right:5rem;
-  }
-  .sticky{
-    height:6rem;
-  }
-  .sticky .main-nav{
-    background: #fff;
-    color: #444;
-    margin-top:0rem;
-  }
-  .navbar{
-    padding:0rem 0rem;
-  }
- .sticky ul li{
-   text-align:center;
- }
- .main-nav .bb:hover{
-   border-bottom: none;
- }
- .main-nav ul li .btn{
-   display:none;
- }
- .hero-header{
-   margin-top:1rem;
- }
- #working-part {
-   text-align:center;
- }
- #icon{
-   text-align:center;
- }
- #member-part{
-   text-align:center;
- }
- #member-part .third-card .card{
-   margin-top:3rem;
- }
-#location {
-  text-align: center;
-}
-#footer {
-  text-align:center;
-}
-}
-@media(max-width:575px){
-  #working-part .third-blog{
-  margin-top: 10rem;
-  display: none;
-  }
-}
-@media(max-width:456px){
-  .hero-header h1{
-    font-size: 3rem;
-  }
-  body{
-    text-align:center;
-  }
-}
-@media(max-width:384px){
-  .sticky .btn{
-    margin-right:0rem;
-  }
-  .sticky .navbar-brand {
-    margin-left: 1rem;
-  }
-}
 
 /*Hero background*/
 #hero-bg{
-      background:url(../img/hero.jpg);
+      background: linear-gradient(rgba(2, 2, 2, 0.7),rgba(2, 2, 2, 0.7)),url(../img/hero.jpg);
        width: 100%;
        background-position: center;
        background-repeat: no-repeat;
@@ -256,14 +193,7 @@ margin-top: -13rem;
 #working-part .inner:hover img{
   transform: scale(1.5);
 }
-@media(max-width:355px){
-  #member-part h2{
-    font-size:3rem;
-  }
-  #working-part h2{
-    font-size:2rem;
-  }
-}
+
 /*Icon ############ part*/
 #icon{
   margin-top:3rem;
@@ -380,17 +310,7 @@ font-weight: 700;
 margin-bottom: 1rem;
 color: #444;
 }
-@media(max-width:355px){
-  #member-part h2{
-    font-size:2rem;
-  }
-  #member-part .first-card{
-    margin-top:4rem;
-  }
-  #member-part h4{
-    font-size:2rem;
-  }
-}
+
 /*Testemonia*/
 #testimonia{
   padding-bottom:4rem;
@@ -437,11 +357,7 @@ margin-bottom: 1rem;
 #testimonia .card-body .owner{
   color:#267DF4;
 }
-@media(max-width:355px){
-  #testimonia h2{
-    font-size:2rem;
-  }
-}
+
 /*Background-video #### part*/
 #bg-video{
   margin-top: 1rem;
@@ -516,11 +432,7 @@ margin-bottom: 1rem;
   font-weight: 700;
   padding:.6rem 3.5rem;
 }
-@media(max-width:355px){
-  #trial h2{
-    font-size:2rem;
-  }
-}
+
 /*Location ##### part*/
 #location{
   margin-top:5rem;
@@ -578,20 +490,7 @@ margin-bottom: 1rem;
   color: #fff;
   background-color: #444;
 }
-@media(max-width:355px){
-  #location h2{
-    font-size:2rem;
-  }
-  #location .counter{
-    font-size: 2rem;
-  }
-  #location .counter-op{
-    font-size: 2rem;
-  }
-  #location p{
-    font-size: 1rem;
-  }
-}
+
 /*News ### Part ### Start*/
 #news{
   margin-top:5rem;
@@ -633,14 +532,10 @@ font-size: 3.5rem;
   transform: rotate(-720deg);
   transition: .4s;
 }
-@media(max-width:355px){
-  #news h2{
-    font-size:2rem;
-  }
-}
+
 /*Talk ##########part*/
 #talk{
-  background:url('../img/footer-bg.jpg');
+  background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5)),url(../img/footer-bg.jpg);
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -652,20 +547,19 @@ font-size: 3.5rem;
 margin-bottom: 1rem;
 }
 #talk .text-head{
-  baclground:#f8f9fa;
+  background:#f8f9fa;
   color: #267DF4;
-  border:1px solid #f8f9fa;
   padding:.2rem;
-  box-shadow: 10px 10px 30px 10px #f8f9fa;
+  
   font-weight: 700;
 }
 #talk p{
   font-size:1.3rem;
   color: #444;
-  font-weight:300;
+  font-weight:700;
 }
 #talk span{
-  color: #267DF4;
+  color: #000;
 }
 #talk .btn{
   padding:.6rem 1.5rem;
@@ -675,11 +569,7 @@ margin-bottom: 1rem;
   background-color: #444;
   color: #f5f5f5;
 }
-@media(max-width:355px){
-  #talk h2{
-    font-size:2rem;
-  }
-}
+
 /*Footer ########## Part*/
 #footer {
   background:#155BBC;
