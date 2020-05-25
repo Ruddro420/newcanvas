@@ -209,7 +209,7 @@ font-size: 2rem;
 #icon .icon-col{
   padding:2rem;
 }
-#icon .fa:hover{
+#icon .icon-col .fa:hover{
   font-size: 2rem;
   transform:rotate(-720deg);
   padding:1.3rem 1rem;
