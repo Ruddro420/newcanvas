@@ -1,0 +1,93 @@
+@media(max-width:499px)
+{
+    .head{
+        display: none ;
+    }
+}
+@media(max-width:991px){
+
+    .search1{
+        display: none;
+    }
+    .btn1{
+        display: none;
+    }
+ 
+}
+@media(max-width:991px){
+    .navbar-nav{
+        background: rgba(36,31,37);
+    }
+
+    .home{
+        width: 100%;
+    }
+}
+@media(max-width:449px){
+
+    .home{
+        font-size: .2rem;
+    }
+}
+@media(max-width:991px){
+  #explore .ami{
+    margin-top: 4rem;
+  }
+  #explore .hide{
+
+    display: ruby; 
+  }
+}
+@media(max-width:991px){
+  #gallery .ami {
+    margin-top: 2.3rem;
+  }
+
+}
+@media(max-width:767px)
+{
+  #growth .card {
+    margin-top: 2rem;
+  }
+}
+@media(max-width:991px){
+    .sticky nav .navbar-nav .nav-link:hover {
+    color: #28AE60;
+}
+    #expart .expart-row{
+  width: 90%;
+  margin: auto;
+}
+#expart .uk-grid {
+    margin-left: 0px;
+}
+  #busness .ami{
+    margin-top: 3rem;
+  }
+}
+@media(max-width:991px)
+{
+  #footer .ami{
+    margin-top: 2rem;
+  }
+}
+@media(max-width:400px){
+    .home .btn3{
+    font-size:1.2rem ;
+    background:#212529;
+    color: white;
+    border-radius: 5rem;
+    border: 1px solid #28AE60;
+    margin-left: 0rem;
+    }
+    .home {
+    margin-top: 5rem;
+    color: #fff;
+    text-align: right;
+    }
+    #growth {
+  padding: 0rem 0rem;
+ background: linear-gradient(rgba(36, 31, 37, 0.6),rgba(36,31,37,.6)),url(../img/banner/about_bg.png);
+ color: white;
+}
+}
